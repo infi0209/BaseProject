@@ -7,10 +7,10 @@ public class testttttTest {
     @Test
     public void getType() throws Exception {
         // Arrange
-        Testtttt testtttt = new Testtttt(5, 10, 5);
+        testtttt Testtttt = new testtttt(5, 10, 5);
 
         // Act
-        String result = testtttt.getType();
+        String result = Testtttt.getType();
 
         // Assert
         Assert.assertEquals("不是三角形", result);
