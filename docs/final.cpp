@@ -5,7 +5,7 @@
 FILE *ptr1,*ptr2;
 int main() {
 	
-	int choice,week,hour,min,i = 0,j,car,count,min2,b,a[2000] = {},count1 = 0,aa[10]={},k;
+	int week,choice,hour,min,i = 0,j,car,count,min2,b,a[2000] = {},count1 = 0,aa[10]={},k;
 	memset(a,0,sizeof(a));
     char temp;
     
@@ -102,7 +102,7 @@ for(i=1;i<=7;i++){
 	
 	if(choice >= 0&&choice <= 2)
 	    break;
-	    
+	       
 	printf("輸入0到2以外的選項  請重新輸入\n"); } 
 	
 	if(choice == 1) {
@@ -134,7 +134,7 @@ for(i=1;i<=7;i++){
 			                    }
 	    	 	
 	    printf("----------------------------------------\n");
-	    printf("所輸入的時間前後一小時的車流量如下 :\n");
+	    printf("所輸入的時間前後一小時的車流量如下 :(一個○ = 5人)\n");
 	    
 	    for(i = 0;i < 9;i++) {
 	    	if(min == 4) {
